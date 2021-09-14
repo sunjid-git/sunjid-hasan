@@ -3,7 +3,7 @@ header {
 }
 .header {
   /* padding: 0.8rem; */
-  padding-top: .8rem;
+  padding-top: .5rem;
   width: 80%;
   margin: 0 auto;
   flex-direction: row;
@@ -47,7 +47,7 @@ header {
 /* site image */
 .sunjid {
   width: 4rem;
-  padding-bottom: .8rem;
+  padding-bottom: .5rem;
 }
 
 nav,
