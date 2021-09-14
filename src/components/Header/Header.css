@@ -36,7 +36,8 @@ header {
   .header-link nav ul li:hover {
     padding: 0.5rem 0;
     width: 100vw;
-    background-color: #5f5819;
+    background-color: #141E55;
+    color: #EFEEE5;
   }
 
   .header .sunjid {
