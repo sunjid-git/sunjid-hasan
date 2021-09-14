@@ -7,36 +7,41 @@ export default function Header() {
     <>
       <header>
         <div className="header">
-          <img src={sunjid} className="sunjid" alt="sunjid" />
+          <div>
+            <img src={sunjid} className="sunjid" alt="sunjid" />
+          </div>
 
-          <nav>
-            <ul>
-              <li>
-                <Link to="/home">Home</Link>
-              </li>
-              <li>
-                <Link to="/about">About</Link>
-              </li>
-              <li>
-                <Link to="/projects">Projects</Link>
-              </li>
-              <li>
-                <Link to="/blog">Blogs</Link>
-              </li>
-              <li>
-                <Link to="/contact">Contact</Link>
-              </li>
-            </ul>
-            <a
-              className="resume"
-              href="https://drive.google.com/file/d/1qiRPUCdlLNBYOn4VJIU563RO64uawqY-/view?usp=sharing"
-              rel="noopener noreferrer"
-              target="_blank"
-              download
-            >
-              Resume
-            </a>
-          </nav>
+          <div className="header-link">
+            <nav>
+              <ul>
+                <li>
+                  <Link to="/home">Home</Link>
+                </li>
+                <li>
+                  <Link to="/about">About</Link>
+                </li>
+                <li>
+                  <Link to="/projects">Projects</Link>
+                </li>
+                <li>
+                  <Link to="/blog">Blogs</Link>
+                </li>
+                <li>
+                  <Link to="/contact">Contact</Link>
+                </li>
+
+                <a
+                  className="resume"
+                  href="https://drive.google.com/file/d/1qiRPUCdlLNBYOn4VJIU563RO64uawqY-/view?usp=sharing"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  download
+                >
+                  Resume
+                </a>
+              </ul>
+            </nav>
+          </div>
         </div>
       </header>
     </>

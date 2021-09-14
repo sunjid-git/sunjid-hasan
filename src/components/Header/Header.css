@@ -2,14 +2,46 @@ header {
   width: 100vw;
 }
 .header {
+  /* height: 10vh; */
+  padding: 0.8rem;
   width: 80%;
-  height: 10vh;
   margin: 0 auto;
-
+  flex-direction: row;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .header-link nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  .header-link nav ul li {
+    padding: 0.5rem 0;
+    width: 100vw;
+    text-align: center;
+
+  }
+  .header-link nav ul li:hover {
+    padding: 0.5rem 0;
+    width: 100vw;
+    background-color: #5f5819;
+  }
+
+  .header .sunjid {
+    width: 8rem;
+  }
 }
 
 .sunjid {
