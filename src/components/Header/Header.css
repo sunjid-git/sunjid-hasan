@@ -2,8 +2,8 @@ header {
   width: 100vw;
 }
 .header {
-  /* height: 10vh; */
-  padding: 0.8rem;
+  /* padding: 0.8rem; */
+  padding-top: .8rem;
   width: 80%;
   margin: 0 auto;
   flex-direction: row;
@@ -44,8 +44,10 @@ header {
   }
 }
 
+/* site image */
 .sunjid {
-  width: 3.5rem;
+  width: 4rem;
+  padding-bottom: .8rem;
 }
 
 nav,

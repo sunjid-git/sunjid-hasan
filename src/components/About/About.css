@@ -20,9 +20,10 @@
 .my-description{
     padding-top: 25px;
     font-size: 1.2rem;
-    width: 60vw;
+    width: 80vw;
     height: 40vh;
     margin: 0 auto;
+    text-align: justify;
 }
 
 .my-description  {

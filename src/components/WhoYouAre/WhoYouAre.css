@@ -3,13 +3,12 @@
     width: 100%;
     background-image: url('../../images/wave.svg');
     background-repeat: no-repeat;
-    /* background-color: rgb(199, 99, 99); */
+    
 }
 
 
-
 .info-inner div{
-    height: 10%;
+    height: 12%;
     color: #141E55;
 }
 .info-inner{
@@ -61,6 +60,13 @@
     top: 35%;
     left: 50%;
     transform: translate(-50%,-50%);
+}
+@media screen and (max-width: 768px){
+    .text-box{
+        top: 100%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }   
 }
 span{
     animation: mover 6s linear infinite;

@@ -9,16 +9,19 @@ import { Link } from "react-router-dom";
 export default function WhoYouAre() {
   return (
     <>
-      <section className="info-background block-height-90">
+      <section className="info-background">
         <div className="info-inner">
-          <div className="text-box">
-            <span>S</span>
-            <span>U</span>
-            <span>N</span>
-            <span>J</span>
-            <span>I</span>
-            <span>D</span>
+          <div>
+            <div className="text-box">
+              <span>S</span>
+              <span>U</span>
+              <span>N</span>
+              <span>J</span>
+              <span>I</span>
+              <span>D</span>
+            </div>
           </div>
+
           <div>
             <h1>Engineer | Web Developer</h1>
           </div>
