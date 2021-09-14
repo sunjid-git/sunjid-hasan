@@ -22,18 +22,17 @@ nav ul {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin-top: 0.5rem;
 }
 
 nav ul li {
-  margin: 0 0.8rem;
+  margin: 0 0.7rem;
   list-style-type: none;
   transition: all 0.25s ease-in-out;
 }
 nav ul li a {
   text-decoration: none;
   color: #141e55;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   font-weight: bolder;
 }
 
@@ -45,12 +44,13 @@ nav ul li:hover {
 .resume {
   text-decoration: none;
   border: none;
-  padding: 0.7rem;
+  font-size: 1rem;
+  padding: 0.6rem 0.6rem;
   border-radius: 0.5rem;
   background-color: #141e55;
   color: #efeee5;
   transition: all 0.5s ease-in-out;
-  font-weight: bolder;
+  font-weight: bold;
   margin-left: 1rem;
 }
 .resume:hover {

@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 export default function WhoYouAre() {
   return (
     <>
-      <section className="info">
+      <section className="info-background block-height-90">
         <div className="info-inner">
           <div className="text-box">
             <span>S</span>

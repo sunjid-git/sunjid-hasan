@@ -1,17 +1,18 @@
 import Home from "./components/Home/Home";
-import Blog from './components/Blog/Blog';
+import Blog from "./components/Blog/Blog";
 
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Contact from './components/Contact/Contact';
-import Projects from './components/Projects/Projects';
+
+import Projects from "./components/Projects/Projects";
 import About from "./components/About/About";
+import NoMatch from "./components/NoMatch/NoMatch";
+import Contact from "./components/Contact/Contact";
 
 function App() {
   return (
     <Router>
       <Switch>
-
         <Route exact path="/">
           <Home />
         </Route>
@@ -36,6 +37,10 @@ function App() {
           <Contact />
         </Route>
 
+        <Route path="*">
+          <NoMatch />
+        </Route>
+        
       </Switch>
     </Router>
   );
