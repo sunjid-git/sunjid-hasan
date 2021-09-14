@@ -1,0 +1,104 @@
+.show-case {
+  /* overflow: hidden; */
+  width: 100vw;
+  display: grid;
+  grid-template-areas:
+    "project blog"
+    "about contact";
+}
+
+@media (max-width: 768px) {
+  .show-case {
+    display: grid;
+    grid-template-areas:
+      "project"
+      "blog"
+      "about"
+      "contact";
+  }
+}
+
+.project,
+.contact {
+  background-color: #141e55;
+  color: #efeee5;
+}
+.blog,
+.about {
+  background-color: #efeee5;
+  color: #141e55;
+}
+
+section div {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inner-text{
+  display:flex;
+  flex-direction: column;
+}
+
+.blog .inner,
+.about .inner {
+  border: 0.6rem solid #141e55;
+}
+.project .inner,
+.contact .inner {
+  border: 0.6rem solid #efeee5;
+}
+
+.inner{
+  cursor: pointer;
+  height: 25rem;
+  width: 25rem;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.25s ease-in-out;
+}
+.inner-text{
+  height: 12rem;
+  width: 25rem;
+  border-radius: 0%;
+}
+
+
+/* four-block - className of every grid section
+respectively
+1.project
+2.blog
+3.about
+4.contact
+*/
+.four-block:hover .inner{
+  height: 12rem;
+  width: 25rem;
+  border-radius: 0%;
+}
+  
+.odd-part,
+.even-part{
+    text-decoration: none;
+}
+.odd-part p,
+.odd-part h1{
+  color: #efeee5;
+}
+.even-part p,
+.even-part h1{
+  color: #141e55;
+}
+
+.odd-part p,
+.even-part p{
+  font-style: italic;
+  font-weight: bolder;
+}
+
+.odd-part h1,
+.even-part h1{
+  font-weight: bolder;
+}
+

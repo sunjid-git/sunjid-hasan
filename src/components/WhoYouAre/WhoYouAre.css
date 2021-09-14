@@ -1,0 +1,109 @@
+.info{
+    height: 90vh;
+    width: 100vw;
+    background-image: url('../../images/wave.svg');
+    background-repeat: no-repeat;
+}
+
+
+.info-inner div{
+    height: 10%;
+    color: #141E55;
+}
+.info-inner{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+/* social icon */
+.social{
+    width: 3rem;
+    height: 3rem;
+    margin-right: 1rem;
+}
+
+.social{
+    margin: 12px;
+    transition: all .8s ease-in-out;
+}
+.social:hover{
+    color: green;
+    transform: translateY(-8px);
+    transition: .5s ease-out;
+} 
+
+.stay-in-touch{
+    text-decoration: none;
+    border:none;
+    padding: .7rem;
+    border-radius: .5rem;
+    color: #141E55;
+    background-color: #EFEEE5;
+    transition: all .5s ease-in-out;
+    font-weight: bolder;
+    border: 1px solid #141E55;
+    margin-right: 1rem;
+}
+.stay-in-touch:hover{
+    background-color: #141E55;
+    color: #EFEEE5;
+}
+
+
+/* wave ----- "SUNJID"----- text */
+.text-box{
+    font-size: 40px;
+    font-family: sans-serif;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-60%);
+}
+span{
+    animation: mover 6s linear infinite;
+    display: inline-block;
+    color: #141E55;
+    font-weight: bolder;
+}
+@keyframes mover
+{
+    0%{
+        text-shadow: 0 0 30px rgba(0, 0, 0, 0);
+      }
+    50%{
+        text-shadow: 0 0 30px rgba(0, 0, 0, 0.30);
+        transform: translateY(25px);
+      }
+    100%
+      {
+        text-shadow: 0 0 30px rgba(0, 0, 0, 0);
+      }
+}
+span:nth-child(1)
+{
+    animation-delay: 0.5s;
+}
+span:nth-child(2)
+{
+    animation-delay: 1s;
+}
+span:nth-child(3)
+{
+    animation-delay: 1.5s;
+}
+span:nth-child(4)
+{
+    animation-delay: 2s;
+}
+span:nth-child(5)
+{
+    animation-delay: 2.5s;
+}
+span:nth-child(6)
+{
+    animation-delay: 3s;
+}
+span:hover{
+    color:#EFEEE5;
+}
