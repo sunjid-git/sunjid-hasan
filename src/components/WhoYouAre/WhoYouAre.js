@@ -67,6 +67,7 @@ export default function WhoYouAre() {
               Download Resume
             </a>
           </div>
+          
         </div>
       </section>
     </>

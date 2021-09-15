@@ -1,10 +1,13 @@
+.blog-page{
+    height: 100%;
 
+    margin-bottom: 10vh;
+}
 .dev-blog{
-    max-height: 22rem;
-    max-width: 24rem;
+    max-height: 16rem;
+    max-width: 20rem;
     display:flex;
-    flex-direction: column;
-    /* background-color: rgb(143, 52, 52); */
+    flex-direction: column;  
 }
 .blogs{
     display:grid;
@@ -18,10 +21,9 @@
     grid-gap: 3vw;
 }
 
-
 .blog-img{
-    width: 25rem;
-    height: 12rem;
+    width: 20rem;
+    height: 20vh;
     border-radius: 1rem;
 }
 
@@ -41,7 +43,6 @@
         ;
 
     }
-
 }
 
 @media screen and (max-width:728px){
@@ -56,6 +57,5 @@
         ;
 
     }
-
 }
 

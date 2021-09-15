@@ -1,9 +1,6 @@
 import React from "react";
 import "./Blog.css";
 
-import Footer from "../Footer/Footer";
-import Header from "../Header/Header";
-
 import blog1 from "../../images/blog1.png";
 import blog2 from "../../images/blog2.jpg";
 import blog3 from "../../images/blog3.jpeg";
@@ -11,10 +8,10 @@ import blog4 from "../../images/blog4.jpeg";
 import blog5 from "../../images/blog5.jpg";
 import blog6 from "../../images/blog6.jpg";
 
+
 export default function Blog() {
   return (
     <>
-      <Header />
       <section className="blog-page info-background">
         <h1 className="heading">Blogs</h1>
         <div className="blogs">
@@ -107,7 +104,6 @@ export default function Blog() {
 
         </div>
       </section>
-      <Footer />
     </>
   );
 }

@@ -1,31 +1,38 @@
 /* util */
 .heading {
-    text-align: center;
- padding-top: 10vh;
- font-size: 2.5rem;
- font-weight: bold;
- color: #141E55;
+  text-align: center;
+  padding-top: 10vh;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #141e55;
 }
 
-.about-page{
-    /* display: flex; */
+.about-page {
+  height: 65vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 768px) {
+  .about-page {
+    height: 100vh;
+    display: flex;
     flex-direction: column;
-    /* text-align: justify; */
+    justify-content: center;
+    align-items: center;
+  }
 }
 
-.my-picture{
-    height: 30%;
-    border-radius: 50%;
+.my-picture {
+  height: 30%;
+  border-radius: 50%;
 }
-.my-description{
-    padding-top: 25px;
-    font-size: 1.2rem;
-    width: 80vw;
-    height: 40vh;
-    margin: 0 auto;
-    text-align: justify;
-}
-
-.my-description  {
-    color: #141E55;
+.my-description {
+  font-size: 1.2rem;
+  width: 80vw;
+  height: 40vh;
+  margin: 0 auto;
+  text-align: justify;
+  color: #141e55;
 }

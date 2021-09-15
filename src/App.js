@@ -8,10 +8,13 @@ import Projects from "./components/Projects/Projects";
 import About from "./components/About/About";
 import NoMatch from "./components/NoMatch/NoMatch";
 import Contact from "./components/Contact/Contact";
+import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
     <Router>
+      <Header/>
       <Switch>
         <Route exact path="/">
           <Home />
@@ -42,6 +45,7 @@ function App() {
         </Route>
         
       </Switch>
+      <Footer/>
     </Router>
   );
 }

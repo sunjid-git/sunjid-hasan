@@ -3,10 +3,10 @@
     padding: 0;
 }
 footer{
-    /* text-align: center; */
+    width: 100%;
     background-color: black;
     text-align:center;
     color: #747272;
-    width: 100%;
     padding: 1rem 0;
+    
 }
