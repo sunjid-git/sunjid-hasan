@@ -1,6 +1,6 @@
 .show-case {
-  /* overflow: hidden; */
-  width: 100vw;
+  overflow: hidden;
+  width: 100%;
   display: grid;
   grid-template-areas:
     "project blog"
@@ -23,7 +23,7 @@
   background-color: #141e55;
   color: #efeee5;
 }
-.blog,
+.blog-card,
 .about {
   background-color: #efeee5;
   color: #141e55;

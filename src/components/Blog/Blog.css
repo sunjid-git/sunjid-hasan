@@ -1,14 +1,61 @@
-.blogCard{
-    background-color: #172A45;
-    height: 375px;
-    width: 325px;
-  
-    color: rgb(172, 166, 166);
-    box-shadow: 0 2px 4px 0 rgba(85, 78, 78, 0.2), 0 6px 20px 0 rgba(114, 105, 105, 0.19);
-    transition: 2s, 2s, 2s;
+
+.dev-blog{
+    max-height: 22rem;
+    max-width: 24rem;
+    display:flex;
+    flex-direction: column;
+    /* background-color: rgb(143, 52, 52); */
 }
-.blogCard:hover{
-    transform: scale(1.02);
-    transition: .5s ease-out;
-    box-shadow: 0 2px 4px 0 rgba(117, 105, 105, 0.2), 0 6px 20px 0 rgba(124, 112, 112, 0.19);
+.blogs{
+    display:grid;
+    grid-template-areas: 
+    "dev-blog dev-blog dev-blog"
+    "dev-blog dev-blog dev-blog"
+
+    ;
+    justify-content:center;
+    align-items:center;
+    grid-gap: 3vw;
 }
+
+
+.blog-img{
+    width: 25rem;
+    height: 12rem;
+    border-radius: 1rem;
+}
+
+.dev-blog p{
+    width: 20rem;
+    margin-top: 1rem;
+    font-weight: bold;
+    text-align: justify;
+}
+
+@media screen and (max-width:928px){
+    .blogs{
+        grid-template-areas: 
+        "dev-blog dev-blog"
+        "dev-blog dev-blog"
+        "dev-blog dev-blog"
+        ;
+
+    }
+
+}
+
+@media screen and (max-width:728px){
+    .blogs{
+        grid-template-areas: 
+        "dev-blog"
+        "dev-blog"
+        "dev-blog"
+        "dev-blog"
+        "dev-blog"
+        "dev-blog"
+        ;
+
+    }
+
+}
+
