@@ -13,14 +13,16 @@ export default function Projects() {
     <>
       <section className="projects info-background">
         <h1 className="heading">Projects</h1>
+
+        {/* my cards */}
         <div className="project-cards">
           <div className="project-card">
             <img src={project1} alt="project1" />
-            <h4>Bengal It Plus</h4>
+            <h2>Bengal It Plus</h2>
             <p>
-              An online store with multiple service option and functionality
-              like dynamic data loading with relevant information and dynamic
-              review section.
+              An online electronic gadget store having multiple functionality
+              including dynamic data loading & review section with relevant
+              information.
             </p>
 
             <div>
@@ -46,11 +48,10 @@ export default function Projects() {
 
           <div className="project-card">
             <img src={project2} alt="project1" />
-            <h4>Bengal Shop</h4>
+            <h2>Bengal Shop</h2>
             <p>
-              An online store with multiple service option and functionality
-              like dynamic data loading with relevant information and dynamic
-              review section.
+              Online grocery shop with functionality also has image with some
+              relevant information uploading facility.
             </p>
 
             <div>
@@ -76,11 +77,11 @@ export default function Projects() {
 
           <div className="project-card">
             <img src={project3} alt="project1" />
-            <h4>Weather Check</h4>
+            <h2>Weather Check</h2>
             <p>
-              An online store with multiple service option and functionality
-              like dynamic data loading with relevant information and dynamic
-              review section.
+              Basic JavaScript project where Dynamic city search functionality
+              that shows weather status of the particular region by using data
+              from open weather api.
             </p>
 
             <div>
@@ -106,7 +107,7 @@ export default function Projects() {
 
           <div className="project-card">
             <img src={project4} alt="project1" />
-            <h4>Bengal Transport</h4>
+            <h2>Bengal Transport</h2>
             <p>
               An online store with multiple service option and functionality
               like dynamic data loading with relevant information and dynamic
@@ -136,11 +137,12 @@ export default function Projects() {
 
           <div className="project-card">
             <img src={project5} alt="project1" />
-            <h4>Surokkha Web site Clone</h4>
+            <h2>Surokkha Web site Clone</h2>
             <p>
-              An online store with multiple service option and functionality
-              like dynamic data loading with relevant information and dynamic
-              review section.
+              Static clone of Surokkha.gov.bd website. It has got all the
+              representational components. Not yet done. Responsiveness
+              functionality has yet to complete. Hope to transfer it into react
+              soon.
             </p>
 
             <div>
@@ -166,7 +168,7 @@ export default function Projects() {
 
           <div className="project-card">
             <img src={project6} alt="project1" />
-            <h4>Personal Website</h4>
+            <h2>Personal Website</h2>
             <p>
               An online store with multiple service option and functionality
               like dynamic data loading with relevant information and dynamic
@@ -195,6 +197,7 @@ export default function Projects() {
           </div>
         </div>
       </section>
+      
     </>
   );
 }

@@ -43,6 +43,9 @@ header {
   .header .sunjid {
     width: 8rem;
   }
+  .resume{
+    margin-bottom: .5rem;
+  }
 }
 
 /* site image */

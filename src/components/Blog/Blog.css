@@ -1,16 +1,21 @@
-.blog-page{
-    height: 100%;
 
-    margin-bottom: 10vh;
-}
+.blog-heading {
+    text-align: center;
+    padding-top: 10vh;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #141e55;
+  }
+  
 .dev-blog{
     max-height: 16rem;
     max-width: 20rem;
     display:flex;
     flex-direction: column;  
+    /* background-color: rgb(78, 35, 35); */
 }
 .blogs{
-    margin: 10%;
+    /* margin: 10%; */
     display:grid;
     grid-template-areas: 
     "dev-blog dev-blog dev-blog"
@@ -30,9 +35,9 @@
 
 .dev-blog p{
     width: 20rem;
-    margin-top: 1rem;
+    margin: 1rem 0;
     font-weight: bold;
-    text-align: justify;
+    text-align: center;
 }
 
 @media screen and (max-width:928px){
