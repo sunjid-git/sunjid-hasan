@@ -36,7 +36,7 @@ export default function Contact() {
           <div className="contact-card">
             <h1>Let's talk about everything!</h1>
             <p>Don't like forms? Send me an email 👋</p>
-            <p>sunjid.info@gmail.com</p>
+            <strong>sunjid.info@gmail.com</strong>
             <p>You can also reach me via at 01521417063</p>
           </div>
           <div className="contact-card">
@@ -44,34 +44,34 @@ export default function Contact() {
               type="text"
               name="name"
               placeholder="Your Name"
-              className="form-control"
+              className="email-input"
             />
-
+{/* 
             <input
               type="text"
               name="subject"
               placeholder="Subject"
-              className="form-control"
-            />
+              className="email-input"
+            /> */}
 
             <input
               type="email"
               name="email"
               placeholder="Your Email Address"
-              className="form-control mb-3"
+              className="email-input"
             />
 
             <textarea
               name="message"
               id=""
-              cols="15"
-              rows="5"
-              className="form-control"
+              cols="25"
+              rows="10"
+              className="email-input"
               placeholder="Feel free to drop a message. I'd love to hear from you..."
               required
             ></textarea>
 
-            <input type="submit" value="Send" className="sendMessage" />
+            <input type="submit" value="Send" className="send-email" />
           </div>
         </div>
       </section>
