@@ -10,6 +10,7 @@
     flex-direction: column;  
 }
 .blogs{
+    margin: 10%;
     display:grid;
     grid-template-areas: 
     "dev-blog dev-blog dev-blog"
