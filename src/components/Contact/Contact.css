@@ -1,16 +1,37 @@
-.contact{  
-    height: 150%;
+.contacts{
+    width: 80vw;
+    margin: 0 auto;
+    display: grid;
+    grid-template-areas: 
+    "contact-card contact-card";
+    justify-content: center;
+    align-items: center;
+    grid-gap: 1rem;
 }
-.sendMessage{
-    background-color: #0A192F;
-    border: 1px solid green;
-    padding: 5px;
-    border-radius: 8px;
-    color: green;
-    font-weight: bolder;
-    width: 125px;
+
+.contact-card{
+    height: 60vh;
+    width: 35vw;
+    background-color: rgb(174, 192, 192);
+
+    display: flex;
+    flex-direction: column;
+    
 }
-.sendMessage:hover{
-    background-color: green;
-    color: white;
+
+@media screen and (max-width:768px){
+    .contacts{
+        grid-template-areas: 
+        "contact-card"
+        "contact-card";
+    }
+    .contact-card{
+        height: 50vh;
+        width: 80vw;
+        margin-bottom: 10rem;
+    }
+    .contact-page{
+        height: 150vh;
+    }
 }
+

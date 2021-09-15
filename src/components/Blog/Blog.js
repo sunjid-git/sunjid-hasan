@@ -7,10 +7,12 @@ import blog3 from "../../images/blog3.jpeg";
 import blog4 from "../../images/blog4.jpeg";
 import blog5 from "../../images/blog5.jpg";
 import blog6 from "../../images/blog6.jpg";
+import Header from "../Header/Header";
 
 export default function Blog() {
   return (
     <>
+    <Header/>
       <section className="blog-page info-background">
         <h1 className="blog-heading">Blogs</h1>
         <div className="blogs">

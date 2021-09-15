@@ -7,10 +7,13 @@ import fb from "../../images/fb.svg";
 import { Link } from "react-router-dom";
 
 import sunjid from "../../images/sunjid.jpg";
+import Header from "../Header/Header";
+import Footer from "../Footer/Footer";
 
 export default function About() {
   return (
     <>
+    <Header/>
       <section className="info-background">
         <h1 className="heading">About</h1>
 
@@ -68,6 +71,7 @@ export default function About() {
           </div>
         </div>
       </section>
+      <Footer/>
     </>
   );
 }
