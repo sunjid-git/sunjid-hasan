@@ -1,4 +1,4 @@
-# [Sunjid Hasan](Mafi)
+# [Sunjid Hasan](https://sunjid-dev.web.app/)
 
 ### Tech stack
 1. React
