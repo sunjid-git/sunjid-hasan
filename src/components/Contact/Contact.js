@@ -37,7 +37,7 @@ export default function Contact() {
             <h1>Let's talk about everything!</h1>
             <p>Don't like forms? Send me an email 👋</p>
             <strong>sunjid.info@gmail.com</strong>
-            <p>You can also reach me via at 01521417063</p>
+            <p>You can also reach me via at <strong>01521417063</strong></p>
           </div>
           <div className="contact-card">
             <input
