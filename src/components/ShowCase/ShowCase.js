@@ -46,7 +46,7 @@ export default function ShowCase() {
         {/* contact starts here */}
         <div className="contact four-block">
           <div className="inner">
-            <Link to="/about" className="odd-part" >
+            <Link to="/contact" className="odd-part" >
               <div className="inner-text ">
                 <p>Interested?</p>
                 <h1>Contact Me</h1>
