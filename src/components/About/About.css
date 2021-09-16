@@ -36,3 +36,17 @@
   text-align: justify;
   color: #141e55;
 }
+
+@media (max-width: 768px){
+  .double-btn{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1.5rem;
+  }
+  .resume{
+    margin-top: 1rem;
+  }
+}

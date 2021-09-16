@@ -47,14 +47,13 @@ export default function About() {
           </div>
 
           <p className="my-description">
-            Hi, This is <strong>Sunjid Hasan</strong>, Glad to meet you. I am a
+            Hi, This is <strong>Sunjid Hasan</strong>. I am a
             self-taught front-end web developer with a Bachelor's in Computer
-            Science and Engineering. I count myself as a continuous learner and
-            committed to developing myself with trial, error and success in the
-            way of my learning path...
+            Science and Engineering. I have been developing my skills in Front end Technology. As a keen individual, I have enriched my profile with some works.  I count myself as a continuous learner and
+            committed to developing myself. Should you be interested in taking a look at works. Thank you...
           </p>
 
-          <div>
+          <div className="double-btn">
             <Link to="/contact" className="stay-in-touch" alt="Stay in touch">
               Let's Get In Touch
             </Link>

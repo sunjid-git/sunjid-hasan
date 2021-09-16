@@ -33,13 +33,7 @@ header {
     text-align: center;
 
   }
-  .header-link nav ul li:hover {
-    padding: 0.5rem 0;
-    width: 100vw;
-    background-color: #141E55;
-    color: #EFEEE5;
-  }
-
+  
   .header .sunjid {
     width: 8rem;
   }
@@ -70,7 +64,7 @@ nav ul li {
 nav ul li a {
   text-decoration: none;
   color: #141e55;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   font-weight: bolder;
 }
 
@@ -90,7 +84,7 @@ nav ul li:hover {
   color: #efeee5;
   transition: all 0.5s ease-in-out;
   font-weight: bold;
-  margin-left: 1rem;
+  /* margin-left: 1rem; */
 }
 .resume:hover {
   color: #141e55;
